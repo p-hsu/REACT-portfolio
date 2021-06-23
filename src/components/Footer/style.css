@@ -1,0 +1,9 @@
+.page-footer {
+    padding: 3px 0;
+    height: 38px;
+}
+
+.page-footer p{
+    margin: 5px 0;
+    font-size: 16px;
+}
