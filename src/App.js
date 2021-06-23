@@ -4,7 +4,7 @@ import React from "react";
 // import Skills from "./pages/Skills";
 // import Projects from "./pages/Projects";
 // import Contact from "./pages/Contact";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 // import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
 import './App.css';
@@ -30,7 +30,10 @@ import './App.css';
 
 function App() {
   return (
-  <Footer />
+    <div>
+      <Navbar />
+      <Footer />
+    </div>
   );
 }
 
