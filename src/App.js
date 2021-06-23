@@ -1,11 +1,12 @@
 import React from "react";
-// import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "./pages/Home";
 // import About from "./pages/About";
 // import Skills from "./pages/Skills";
 // import Projects from "./pages/Projects";
 // import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
-// import Wrapper from "./components/Wrapper";
+import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
 import './App.css';
 
@@ -30,10 +31,15 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Wrapper>
+          <Route exact path="/" component={Home} />
+        </Wrapper>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
