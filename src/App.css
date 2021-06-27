@@ -1,0 +1,141 @@
+@media screen and (max-width: 1000px) {
+    .prof-photo {
+        width: 65%;
+        height: auto;
+        padding-top: 7px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    main {
+        padding-left: 0;
+        padding-top: 64px;
+    }
+
+    nav.hide-on-large-only.trigger {
+        display: block;
+        position: fixed;
+        z-index: 2;
+    }
+
+    nav a.sidenav-trigger {
+        margin-left: 15px;
+        top: 15px;
+        height: 34px;
+    }
+
+}
+
+.page-footer {
+    padding: 3px 0 3px 0;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.page-footer p{
+    margin: 5px;
+    font-size: 16px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .prof-photo {
+        width: 65%;
+        height: auto;
+        padding-top: 3px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    main {
+        padding-left: 0;
+        padding-top: 56px;
+    }
+
+    nav.hide-on-large-only.trigger {
+        display: block;
+        position: fixed;
+        z-index: 2;
+    }
+
+    nav a.sidenav-trigger {
+        margin-left: 15px;
+        top: 15apx;
+        height: 27px;
+    }
+
+    h5 {
+        font-size: 1.9rem;
+    }
+
+    h6 {
+        font-size: 1.3rem;
+    }
+
+    section#contact div#contact-links {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    section#contact a {
+        margin: 10px 15px;
+    }
+
+    .page-footer {
+        padding: 3px 0 3px 0;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+    }
+    
+    .page-footer p{
+        margin: 5px;
+        font-size: 16px;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 535px) {
+
+    section#contact div#contact-links {
+        display: flex;
+        justify-content: center;
+    }
+
+    section#contact a {
+        margin: 0 auto;
+    }
+
+    .page-footer {
+        padding: 3px 0 3px 0;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+    }
+    
+    .page-footer p{
+        margin: 5px;
+        font-size: 16px;
+        
+    }
+}

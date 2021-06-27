@@ -30,3 +30,13 @@ h6 {
     margin: 25px;
     line-height: 25px;
 }
+
+section#projects div.card-reveal ul li {
+    list-style-type: disc;
+    margin-left: 25px;
+    line-height: 28px;
+}
+
+section#projects div.card-action a.btn-floating {
+    margin-right: 15px;
+}
