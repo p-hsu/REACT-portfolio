@@ -1,5 +1,4 @@
 import React from "react";
-import images from "../assets/images"
 
 const cardWrap = {
     marginTop: 25
@@ -65,7 +64,7 @@ function Projects() {
                     <div className="col s12 m6 l4" style={cardWrap}>
                         <div className="card card medium hoverable " style={cardHover}>
                             <div className="card-image waves-effect waves-block waves-light">
-                                <img className="activator" alt="Waggin' Tag'em thumbnail" src="../assets/images/WagginTagem.png" />
+                                <img className="activator" alt="Waggin' Tag'em thumbnail" src="/images/WagginTagem.png" />
                             </div>
                             <div className="card-content">
                                 <span className="card-title activator blue-grey-text text-darken-3">Waggin' Tag'em<i className="material-icons right">more_vert</i></span>
@@ -104,7 +103,7 @@ function Projects() {
                     <div className="col s12 m6 l4" style={cardWrap}>
                         <div className="card card medium hoverable " style={cardHover}>
                             <div className="card-image waves-effect waves-block waves-light">
-                                <img className="activator" alt="Waggin' Tag'em thumbnail" src="../assets/images/techblog.png" />
+                                <img className="activator" alt="Waggin' Tag'em thumbnail" src="/images/techblog.png" />
                             </div>
                             <div className="card-content">
                                 <span className="card-title activator blue-grey-text text-darken-3">Tech Blog<i className="material-icons right">more_vert</i></span>
@@ -143,7 +142,7 @@ function Projects() {
                     <div className="col s12 m6 l4" style={cardWrap}>
                         <div className="card card medium hoverable" style={cardHover}>
                             <div className="card-image waves-effect waves-block waves-light">
-                                <img className="activator" alt="Brew Me thumbnail" src="../assets/images/BrewMe.png" />
+                                <img className="activator" alt="Brew Me thumbnail" src="/images/BrewMe.png" />
                             </div>
                             <div className="card-content">
                                 <span className="card-title activator blue-grey-text text-darken-3">Brew Me<i className="material-icons right">more_vert</i></span>
@@ -176,7 +175,7 @@ function Projects() {
                     <div className="col s12 m6 l4" style={cardWrap}>
                         <div className="card card medium hoverable" style={cardHover}>
                             <div className="card-image waves-effect waves-block waves-light">
-                                <img className="activator" alt="Readme generator thumbnail" src="./assets/images/README-gen.png" />
+                                <img className="activator" alt="Readme generator thumbnail" src="/images/README-gen.png" />
                             </div>
                             <div className="card-content">
                                 <span className="card-title activator blue-grey-text text-darken-3">README Generator<i className="material-icons right">more_vert</i></span>
@@ -200,7 +199,7 @@ function Projects() {
                     <div className="col s12 m6 l4" style={cardWrap}>
                         <div className="card card medium hoverable" style={cardHover}>
                             <div className="card-image waves-effect waves-block waves-light">
-                                <img className="activator" alt="Day Planner thumbnail" src="./assets/images/planner.png" />
+                                <img className="activator" alt="Day Planner thumbnail" src="/images/planner.png" />
                             </div>
                             <div className="card-content">
                                 <span className="card-title activator blue-grey-text text-darken-3">Work Day Scheduler<i className="material-icons right">more_vert</i></span>
