@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/REACT-portfolio/static/css/main.accd9e35.chunk.css",
+    "main.js": "/REACT-portfolio/static/js/main.a37dabc9.chunk.js",
+    "main.js.map": "/REACT-portfolio/static/js/main.a37dabc9.chunk.js.map",
+    "runtime-main.js": "/REACT-portfolio/static/js/runtime-main.4511c91b.js",
+    "runtime-main.js.map": "/REACT-portfolio/static/js/runtime-main.4511c91b.js.map",
+    "static/js/2.78125603.chunk.js": "/REACT-portfolio/static/js/2.78125603.chunk.js",
+    "static/js/2.78125603.chunk.js.map": "/REACT-portfolio/static/js/2.78125603.chunk.js.map",
+    "index.html": "/REACT-portfolio/index.html",
+    "static/css/main.accd9e35.chunk.css.map": "/REACT-portfolio/static/css/main.accd9e35.chunk.css.map",
+    "static/js/2.78125603.chunk.js.LICENSE.txt": "/REACT-portfolio/static/js/2.78125603.chunk.js.LICENSE.txt",
+    "static/media/BrewMe.fd223859.png": "/REACT-portfolio/static/media/BrewMe.fd223859.png",
+    "static/media/README-gen.1770acc1.png": "/REACT-portfolio/static/media/README-gen.1770acc1.png",
+    "static/media/WagginTagem.2a67a8f1.png": "/REACT-portfolio/static/media/WagginTagem.2a67a8f1.png",
+    "static/media/Web Dev resume.a09b6f46.pdf": "/REACT-portfolio/static/media/Web Dev resume.a09b6f46.pdf",
+    "static/media/style.css": "/REACT-portfolio/static/media/driftwood-mi.8c0347b6.jpg",
+    "static/media/employeedir.17cc97a6.png": "/REACT-portfolio/static/media/employeedir.17cc97a6.png",
+    "static/media/planner.2a7f9d5c.png": "/REACT-portfolio/static/media/planner.2a7f9d5c.png",
+    "static/media/profile-photo-md.385b2c9e.png": "/REACT-portfolio/static/media/profile-photo-md.385b2c9e.png",
+    "static/media/techblog.e8c947b8.png": "/REACT-portfolio/static/media/techblog.e8c947b8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4511c91b.js",
+    "static/js/2.78125603.chunk.js",
+    "static/css/main.accd9e35.chunk.css",
+    "static/js/main.a37dabc9.chunk.js"
+  ]
+}
