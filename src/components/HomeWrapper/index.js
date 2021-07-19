@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import driftwood from "../../images/driftwood-mi-jpg"
+import driftwood from "../../images/driftwood-mi.jpg"
 
 function HomeWrapper(props) {
   return (
