@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 import PDF from "./PDF/Web Dev resume.pdf"
+import profilePhoto from "../../images/profile-photo-md.png"
 
 function Navbar() {
     return (
         <ul className="sidenav sidenav-fixed white hide-on-small-only" id="main-nav">
             <li id="logo-container">
                 <Link to="/" aria-label="Navigate to top of page" className="brand-logo">
-                    <img className="circle" id="logo-photo" alt="Pamela Hsu" src="./assets/images/profile-photo-md.png" />
+                    <img className="circle" id="logo-photo" alt="Pamela Hsu" src={profilePhoto} />
                     <h4 className="blue-grey-text text-darken-2">Pamela Hsu
                         <span className="teal-text text-darken-2">Fullstack Developer</span>
                     </h4>
