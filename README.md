@@ -19,7 +19,7 @@ My portfolio - featuring projects that I am proud of as well as ways to contact 
     - nav bar doesn't display
     - therefore no function and NOT mobile friendly >> this should be redesigned from a mobile first perspective
 * css is everywhere and very messy...
-* images for project cards and resume PDF file not populating/found
+* background image for header not rendering
 
 ****
 
