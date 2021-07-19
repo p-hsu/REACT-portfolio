@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import PDF from "./PDF/Web Dev resume.pdf"
 
 function Navbar() {
     return (
@@ -16,7 +17,7 @@ function Navbar() {
             <li><Link aria-label="Navigate to About Me section" to="/about"><i className="fas fa-user-circle fa-lg"></i>About Me</Link></li>
             <li><Link aria-label="Navigate to Projects section" to="/projects"><i className="fas fa-project-diagram fa-sm"></i>Projects</Link></li>
             <li><Link aria-label="Navigate to Contact section" to="/contact"><i className="fas fa-paper-plane fa-lg"></i>Contact</Link></li>
-            <li><a aria-label="Navigate to resume PDF download" href="../../assets/PDF/Web Dev resume.pdf" download><i className="fas fa-file-download fa-lg"></i>Resume</a></li>
+            <li><a aria-label="Navigate to resume PDF download" href={PDF} download><i className="fas fa-file-download fa-lg"></i>Resume</a></li>
         </ul>
     );
 }

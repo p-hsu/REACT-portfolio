@@ -1,4 +1,11 @@
 import React from "react";
+import brewme from "../images/BrewMe.png";
+import employeedir from "../images/employeedir.png";
+import planner from "../images/planner.png";
+import readme from "../images/README-gen.png";
+import techblog from "../images/techblog.png";
+import wagtag from "../images/WagginTagem.png";
+
 
 const cardWrap = {
     marginTop: 25
@@ -27,7 +34,7 @@ function Projects() {
                 <div className="col s12 m6 l4" style={cardWrap}>
                         <div className="card card medium hoverable " style={cardHover}>
                             <div className="card-image waves-effect waves-block waves-light">
-                                <img className="activator" alt="Waggin' Tag'em thumbnail" src="/images/employeedir.png" />
+                                <img className="activator" alt="Waggin' Tag'em thumbnail" src={employeedir} />
                             </div>
                             <div className="card-content">
                                 <span className="card-title activator blue-grey-text text-darken-3">Employee Directory<i className="material-icons right">more_vert</i></span>
@@ -64,7 +71,7 @@ function Projects() {
                     <div className="col s12 m6 l4" style={cardWrap}>
                         <div className="card card medium hoverable " style={cardHover}>
                             <div className="card-image waves-effect waves-block waves-light">
-                                <img className="activator" alt="Waggin' Tag'em thumbnail" src="/images/WagginTagem.png" />
+                                <img className="activator" alt="Waggin' Tag'em thumbnail" src={wagtag} />
                             </div>
                             <div className="card-content">
                                 <span className="card-title activator blue-grey-text text-darken-3">Waggin' Tag'em<i className="material-icons right">more_vert</i></span>
@@ -103,7 +110,7 @@ function Projects() {
                     <div className="col s12 m6 l4" style={cardWrap}>
                         <div className="card card medium hoverable " style={cardHover}>
                             <div className="card-image waves-effect waves-block waves-light">
-                                <img className="activator" alt="Waggin' Tag'em thumbnail" src="/images/techblog.png" />
+                                <img className="activator" alt="Waggin' Tag'em thumbnail" src={techblog} />
                             </div>
                             <div className="card-content">
                                 <span className="card-title activator blue-grey-text text-darken-3">Tech Blog<i className="material-icons right">more_vert</i></span>
@@ -142,7 +149,7 @@ function Projects() {
                     <div className="col s12 m6 l4" style={cardWrap}>
                         <div className="card card medium hoverable" style={cardHover}>
                             <div className="card-image waves-effect waves-block waves-light">
-                                <img className="activator" alt="Brew Me thumbnail" src="/images/BrewMe.png" />
+                                <img className="activator" alt="Brew Me thumbnail" src={brewme} />
                             </div>
                             <div className="card-content">
                                 <span className="card-title activator blue-grey-text text-darken-3">Brew Me<i className="material-icons right">more_vert</i></span>
@@ -175,7 +182,7 @@ function Projects() {
                     <div className="col s12 m6 l4" style={cardWrap}>
                         <div className="card card medium hoverable" style={cardHover}>
                             <div className="card-image waves-effect waves-block waves-light">
-                                <img className="activator" alt="Readme generator thumbnail" src="/images/README-gen.png" />
+                                <img className="activator" alt="Readme generator thumbnail" src={readme} />
                             </div>
                             <div className="card-content">
                                 <span className="card-title activator blue-grey-text text-darken-3">README Generator<i className="material-icons right">more_vert</i></span>
@@ -199,7 +206,7 @@ function Projects() {
                     <div className="col s12 m6 l4" style={cardWrap}>
                         <div className="card card medium hoverable" style={cardHover}>
                             <div className="card-image waves-effect waves-block waves-light">
-                                <img className="activator" alt="Day Planner thumbnail" src="/images/planner.png" />
+                                <img className="activator" alt="Day Planner thumbnail" src={planner} />
                             </div>
                             <div className="card-content">
                                 <span className="card-title activator blue-grey-text text-darken-3">Work Day Scheduler<i className="material-icons right">more_vert</i></span>
